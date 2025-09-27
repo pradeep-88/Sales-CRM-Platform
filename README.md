@@ -1,7 +1,7 @@
 [![PHP](https://img.shields.io/badge/Backend-PHP-777bb4?logo=php)](https://www.php.net/)
 [![MySQL](https://img.shields.io/badge/Database-MySQL-blue?logo=mysql)](https://www.mysql.com/)
 ![phpGrid](https://img.shields.io/badge/UI-phpGrid-orange)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
 [![Status](https://img.shields.io/badge/Stage-Development-yellow)]()
 
 # 🗂️ Customer Relationship Management (CRM) System  
