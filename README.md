@@ -69,16 +69,19 @@ Lookup tables: `contact_status`, `task_status`, `user_status`, `todo_type`, `tod
    ```bash
    git clone https://github.com/your-username/CRM-System.git
    cd CRM-System
-Create a MySQL schema (e.g., crm_database).
+
+## Create a MySQL schema (e.g., crm_database).
 
 Import SQL script:
-
+```
 sql
 Copy code
 SOURCE db/install.sql;
 Configure phpGrid in conf.php:
+```
 
-php
+## php
+```
 Copy code
 define("PHPGRID_DB_HOSTNAME","localhost");
 define("PHPGRID_DB_USERNAME","root");
@@ -86,26 +89,28 @@ define("PHPGRID_DB_PASSWORD","password");
 define("PHPGRID_DB_NAME","crm_database");
 define("PHPGRID_DB_TYPE","mysql");
 define("PHPGRID_DB_CHARSET","utf8");
-📑 Application Pages
-Tasks Page → Current tasks with statuses
+```
+## 📑 Application Pages
 
-Leads Page → All active leads with details
+### Tasks Page → Current tasks with statuses
 
-Opportunities Page → Qualified leads ready for conversion
+### Leads Page → All active leads with details
 
-Customers / Won Page → Closed deals
+### Opportunities Page → Qualified leads ready for conversion
 
-Manager Dashboard → Tabbed view for sales and team tracking
+### Customers / Won Page → Closed deals
 
-📌 Future Enhancements
-Email notifications
+### Manager Dashboard → Tabbed view for sales and team tracking
 
-Advanced analytics
+## 📌 Future Enhancements
+- Email notifications
 
-Multi-language support
+- Advanced analytics
 
-Exportable reports
+- Multi-language support
 
-👨‍💻 Author
-Pradeep Rajput
+- Exportable reports
+
+👨‍💻 ## Author
+### Pradeep Rajput
 🔗 GitHub | LinkedIn
